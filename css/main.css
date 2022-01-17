@@ -1,0 +1,159 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+/* Main */
+
+.container {
+}
+
+.main-content {
+    background-color: #fff;
+    width: 515px;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.div2 {
+    margin-right: auto;
+}
+
+.main-heading {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.main-heading::after {
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 7px;
+    background: #c0c0f0;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.content-heading {
+    margin: 0;
+    margin-left: 30px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.main-text {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #b1b1b9e3;
+}
+
+.content-text {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 60px;
+    color: #b1b1b9e3;
+}
+
+.hero-content {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.hero-heading {
+    margin: 0;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #b1b1b9e3;
+}
+
+.hero-heding {
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #b1b1b9e3;
+}
+
+.hero-text {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hero-teext {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hero-content-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div5 {
+    margin-bottom: 20px;
+}
+
+.div6 {
+    margin-bottom: 20px;
+}
+
+.div1-text {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #a7a7ac;
+}
+
+.div1-heading {
+    margin: 0;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 600;
+}
+
+.main-logo {
+    display: flex;
+    margin-top: 10px;
+}
